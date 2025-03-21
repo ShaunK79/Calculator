@@ -1,4 +1,4 @@
-# shaunK79-github.io-calculator
+# Calculator
 
 So as it appears EVERYONE does a calculator project I thought I would give it a go too.
 I followed a tutorial to get an idea of how to go about it. I was particularly concerned about the Javascript.
