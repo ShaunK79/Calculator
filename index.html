@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Shaun's Calculator</title>
+</head>
+<body>
+	<h1>Calculator</h1>
+	<!-- Display -->
+	<label>
+		<input class="display" type="text" name="displayscreen" readonly>
+	</label>
+	<!-- Table col and rows for button inputs -->
+	<table class="center">
+		<tbody>
+			<!-- Fifth Row - Top row -->
+			<tr>
+				<td><button class="toprow" onclick="clearDisplay('AC')">AC</button></td>
+				<td><button class="rightcol1" onclick="appendToDisplay('/')">/</button></td>
+			</tr>
+			<!-- Fourth Row -->
+			<tr>
+				<td><button class="numbers" onclick="appendToDisplay('7')">7</button></td>
+				<td><button class="numbers" onclick="appendToDisplay('8')">8</button></td>
+				<td><button class="numbers" onclick="appendToDisplay('9')">9</button></td>
+				<td><button class="rightcol" onclick="appendToDisplay('*')">*</button></td>
+			</tr>
+			<!-- Third Row -->
+			<tr>
+				<td><button class="numbers" onclick="appendToDisplay('4')">4</button></td>
+				<td><button class="numbers" onclick="appendToDisplay('5')">5</button></td>
+				<td><button class="numbers" onclick="appendToDisplay('6')">6</button></td>
+				<td><button class="rightcol" onclick="appendToDisplay('-')">-</button></td>
+			</tr>
+			<!-- Second Row -->
+			<tr>
+				<td><button class="numbers" onclick="appendToDisplay('1')">1</button></td>
+				<td><button class="numbers" onclick="appendToDisplay('2')">2</button></td>
+				<td><button class="numbers" onclick="appendToDisplay('3')">3</button></td>
+				<td><button class="rightcol" onclick="appendToDisplay('+')">+</button></td>
+			</tr>
+			<!-- First Row - bottom row -->
+			<tr>
+				<div class="button-container">
+				<td><button class="numbers0" onclick="appendToDisplay('0')">0</button></td>
+				<td><button class="numbers0" onclick="appendToDisplay('.')">.</button></td></div>
+				<td><button class="numbers1" onclick="appendToDisplay('=')">by SK</button></td> 				<td><button class="rightcol" onclick="calculate('=')">=</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<footer>
+		<p>Built by Shaun Kriel</p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

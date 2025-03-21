@@ -1,0 +1,121 @@
+
+
+body {
+	background-color: #000000;
+	
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	background-color: #222423;
+	border: none;
+	width: 255px;
+	height: 50px;
+	color: white;
+	border-radius: 10px;
+	font-size: 30px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* numbers 1 - 9 */
+.numbers {
+	background-color: #222423;
+	color: white;
+}
+
+.numbers:hover {
+	background-color: #7ef61c;
+	transform: translateY(2px);
+} 
+/* number 0 and . */
+.numbers0 {
+	background-color: #222423;
+	color: white;
+}
+
+.numbers0:hover {
+	background-color: #f8f805;
+	transform: translateY(2px);
+	color: #4A4F4E;
+}
+
+.numbers1 {
+	background-color: #222423;
+	color: rgb(147, 145, 145);
+	opacity: 0.3;
+}
+/* top row AC */
+.toprow {
+	background-color: #4A4F4E;
+	color: white;
+}
+
+.toprow:hover {
+	background-color: #05f1f9;
+	transform: translateY(2px);
+}
+/*  right columns * - + = */
+.rightcol {
+	background-color: #F09900;
+	color: white;
+}
+
+.rightcol:hover {
+	background-color: #f506dd;
+	transform: translateY(2px);
+}
+/* right column / */
+.rightcol1 {
+	background-color: #F09900;
+	color: white;
+	float: right;
+}
+
+.rightcol1:hover {
+	background-color: #764bc4;
+	transform: translateY(2px);
+}
+
+.rightcol1 {
+	position: relative;
+	left: 134px;
+}
+/* buttons */
+.numbers, .numbers0, .toprow, .rightcol, .rightcol1 {
+	
+	border: none;
+	cursor: pointer;
+	margin: 2px 2px;
+	padding: 22px 22px;
+	width: 15px;
+	height: 15px;
+	font-family: sans-serif;
+	font-size: 25px;
+	border-radius: 10px;
+	box-sizing: content-box;
+	display: flex;
+	justify-content: center;
+}
+/* for the redundant button */
+.numbers1 {
+	border: none;
+	margin: 2px 2px;
+	padding: 22px 22px;
+	width: 15px;
+	height: 15px;
+	font-family: sans-serif;
+	font-size: 15px;
+	border-radius: 20px;
+	box-sizing: content-box;
+}
+
+footer {
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	opacity: 0.5;
+}
